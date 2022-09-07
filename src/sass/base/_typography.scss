@@ -1,0 +1,92 @@
+h1.heading {
+	font-size: 2rem;
+	font-weight: 900;
+	// line-height: 165%;
+	color: $color-text;
+	text-align: center;
+}
+h2.heading {
+	font-size: 2rem;
+	font-weight: 700;
+	// line-height: 165%;
+	color: $color-text;
+}
+
+h5.heading {
+	font-size: 1rem;
+	font-family: $font-primary;
+	font-weight: 900;
+	color: #000;
+}
+
+h4.heading {
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 165%;
+	color: #a7a7a7;
+}
+
+h3.heading {
+	font-size: 2rem;
+	font-weight: 700;
+	color: #000;
+}
+
+h6.heading {
+	font-size: 12px;
+	font-family: $font-primary;
+	color: #dfdfdf;
+}
+
+.p__text {
+	font-size: 1.4rem;
+	color: $color-text;
+}
+
+// Typography utils
+
+.bold {
+	font-weight: 700;
+}
+
+.center {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+.font-avenir {
+	font-family: $font-primary;
+}
+
+.icon {
+	height: 2.7rem;
+	width: 3.1rem;
+}
+
+@mixin pos-center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin img-size {
+	height: 100%;
+	width: 100%;
+}
+
+@mixin icon-vector {
+	height: 2rem;
+	width: 2rem;
+}

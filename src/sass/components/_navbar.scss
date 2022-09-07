@@ -1,0 +1,76 @@
+.nav {
+	padding: 1.6rem 10rem;
+	gap: 3rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: $bg-color;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+	@media only screen and (max-width: $laptop-land) {
+		padding: 1.6rem 2rem;
+	}
+
+	&__logo {
+		margin-right: auto;
+	}
+
+	&__list {
+		gap: 4rem;
+	}
+	&__item {
+	}
+	&__link {
+		&:link,
+		&:visited {
+			text-decoration: none;
+			text-transform: capitalize;
+			font-size: 1.2rem;
+			font-weight: 700;
+			color: $color-text;
+			transition: all 0.3s;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+	&__form {
+		background: #ffffff;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+		border-radius: 23px;
+		padding: 1rem 2.5rem;
+		gap: 1.5rem;
+
+		label {
+			transform: translateY(0.3rem);
+		}
+
+		input {
+			background-color: transparent;
+			border: none;
+			outline: none;
+			font-size: 1.2rem;
+
+			&:placeholder {
+				color: #aeaeae;
+			}
+		}
+	}
+}
+
+.logo {
+	font-size: 3rem;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	// @media only screen and (max-width: $laptop-land) {
+	// 	font-size: 2rem;
+	// }
+}
+
+.btn-bars {
+	border: none;
+	outline: none;
+}

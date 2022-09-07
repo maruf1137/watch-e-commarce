@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	outline: none;
+	text-transform: capitalize;
+}
+// ::selection {
+// 	background: $color-text;
+// 	color: #fff;
+// }
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+
+	@media only screen and (max-width: $laptop-port) {
+		font-size: 58%;
+	}
+	@media only screen and (max-width: $mbl-port) {
+		// font-size: 45%;
+	}
+	@media only screen and (max-width: $mbl-small) {
+		// font-size: 40%;
+	}
+}
+
+body {
+	font-family: $font-primary;
+	font-size: 1.4rem;
+	color: $color-text;
+	overflow-x: hidden;
+	background-color: $bg-color;
+}
+
+.main {
+	color: #4e4e4e;
+	overflow-x: hidden;
+	background-color: #f4f4f4;
+}
+
+.container {
+	padding: 0 5rem;
+
+	@media only screen and (max-width: $mbl-small) {
+		padding: 0 2rem;
+	}
+}
