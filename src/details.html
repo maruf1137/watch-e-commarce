@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>product details || watch application</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="fonts/stylesheet.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<main class="main">
+			<!-- nvabar -->
+			<div class="nav d-flex justify-content-start align-items-center">
+				<figure class="nav__logo">
+					<!-- <img src="img/logo.png" alt="" /> -->
+					<div class="logo">logo</div>
+				</figure>
+				<div class="nav__list d-flex align-items-center d-none d-lg-flex">
+					<div class="nav__item">
+						<a href="#" class="nav__link">deals</a>
+					</div>
+					<div class="nav__item">
+						<a href="#" class="nav__link">categories</a>
+					</div>
+					<div class="nav__item">
+						<a href="#" class="nav__link">Retailers</a>
+					</div>
+				</div>
+				<form
+					action="#"
+					class="nav__form d-flex justify-content-start align-items-center d-none d-lg-flex"
+				>
+					<label for="search">
+						<img src="img/search-ico.png" alt="" />
+					</label>
+					<input type="text" id="search" placeholder="Brands, products etc..." />
+				</form>
+
+				<div class="nav__btns btns d-flex align-items-center d-none d-lg-flex">
+					<a href="#" class="btn btn__account btn-auth">Login / Sign up</a>
+					<a href="#" class="btn btn__share btn__primary">share</a>
+				</div>
+
+				<button class="btn-bars d-block d-lg-none">
+					<svg class="icon icon-bars"><use xlink:href="./img/icons.svg#icon-bars"></use></svg>
+				</button>
+			</div>
+
+			<!-- mbl nav -->
+			<div class="mblNav d-block d-lg-none">
+				<div class="logo mb-5">logo</div>
+				<ul class="mblNav__list mb-5">
+					<li class="mblNav__item">
+						<a href="#" class="mblNav__link">deals</a>
+					</li>
+					<li class="mblNav__item">
+						<a href="#" class="mblNav__link">categories</a>
+					</li>
+					<li class="mblNav__item">
+						<a href="#" class="mblNav__link">retailers</a>
+					</li>
+				</ul>
+
+				<a href="#" class="btn btn__account btn-auth">Login / Sign up</a>
+
+				<button class="btn-close-sidebar">
+					<svg class="icon icon-clear"><use xlink:href="./img/icons.svg#icon-clear"></use></svg>
+				</button>
+			</div>
+
+			<!-- products container -->
+			<div class="details container">
+				<div class="target mb-2">
+					<svg class="icon"><use xlink:href="./img/icons.svg#icon-home"></use></svg>
+					<span>></span>
+					<a href="#" class="target__link">deals</a>
+					<span>></span>
+					<a href="#" class="target__link">Huawei Watch GT 2 42mm + FREE P&P w/ ARGOS (15% OFF)</a>
+				</div>
+
+				<div class="details__card">
+					<div class="details__item d-flex align-items-start justify-content-start mb-4">
+						<div class="details__left">
+							<figure class="details__img">
+								<img src="img/product-img-1.png" alt="" />
+							</figure>
+							<div class="btns mb-2">
+								<button class="btn details__btn btn__like">
+									<svg class="icon">
+										<use xlink:href="./img/icons.svg#icon-thumbs-up"></use>
+									</svg>
+								</button>
+								<button class="btn details__btn btn__message">
+									<svg class="icon">
+										<use xlink:href="./img/icons.svg#icon-comments"></use>
+									</svg>
+								</button>
+							</div>
+
+							<p class="text mb-1 d-flex align-items-center">
+								<svg class="icon"><use xlink:href="./img/icons.svg#icon-heart-fill"></use></svg>
+								<span>364 people like this deal️</span>
+							</p>
+							<p class="text d-flex align-items-center">
+								<svg class="icon">
+									<use xlink:href="./img/icons.svg#icon-comments"></use>
+								</svg>
+								<span>364 people like this deal️</span>
+							</p>
+						</div>
+
+						<div class="details__right">
+							<h2 class="details__title mb-2">
+								Huawei Watch GT 2 42mm + FREE P&P w/ ARGOS (15% OFF)
+							</h2>
+							<p class="text mb-2">Deal by: <span class="deals-name">Amazon Deals</span></p>
+							<div class="price mb-2 d-flex align-items-center">
+								<div class="new-price">£69</div>
+								<div class="old-price">£82</div>
+							</div>
+
+							<div class="btns products__btns mb-2">
+								<button class="btn btn__primary">get deal</button>
+								<button class="btn btn__secondary">share deal</button>
+							</div>
+
+							<p class="posted-user">posted by:</p>
+							<a href="#" class="user d-flex align-items-center">
+								<img src="img/profile-1.png" alt="" />
+								<h4 class="user-name">FagHag_123</h4>
+							</a>
+							<p class="post-time">3 days ago</p>
+						</div>
+					</div>
+
+					<div class="details__desc mb-5">
+						<h2 class="heading mb-4">description</h2>
+						<p class="text">
+							Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+							piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+							McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+							the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+							through the cites of the word in classical literature, discovered the undoubtable
+							source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
+							Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a
+							treatise on the theory of ethics, very popular during the Renaissance. The first line
+							of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+							<br /><br />
+
+							The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+							interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by
+							Cicero are also reproduced in their exact original form, accompanied by English
+							versions from the 1914 translation by H. Rackham.
+						</p>
+					</div>
+
+					<div class="more-imgs mb-5">
+						<figure class="more-imgs__img">
+							<img src="img/product-img-2.png" alt="" />
+						</figure>
+						<figure class="more-imgs__img">
+							<img src="img/product-img-2.png" alt="" />
+						</figure>
+						<figure class="more-imgs__img">
+							<img src="img/product-img-2.png" alt="" />
+						</figure>
+					</div>
+
+					<div class="details__tags mb-5">
+						<button class="btn btn__tag">tag 1</button>
+						<button class="btn btn__tag">tag 1</button>
+						<button class="btn btn__tag">tag 1</button>
+						<button class="btn btn__tag">tag 1</button>
+						<button class="btn btn__tag">tag 1</button>
+						<button class="btn btn__tag">tag 1</button>
+					</div>
+
+					<div class="details__comments">
+						<h2 class="heading mb-2">comments</h2>
+						<div class="comment d-flex align-items-center">
+							<img src="img/profile-1.png" alt="" />
+							<input type="text" placeholder="Write a comment..." class="btn" />
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<footer class="footer">
+				<div class="container">
+					<div class="logo mb-3">logo</div>
+					<div class="footer__list row gx-5 gy-5">
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">site map</h6>
+								<a href="#" class="footer__link">home</a>
+								<a href="#" class="footer__link">deals</a>
+								<a href="#" class="footer__link">Retailers</a>
+								<a href="#" class="footer__link">community</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">Help and Support</h6>
+								<a href="#" class="footer__link">Help and Support</a>
+								<a href="#" class="footer__link">contact us</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">Resource Centre</h6>
+								<a href="#" class="footer__link">news</a>
+								<a href="#" class="footer__link">Tips on Saving money</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">others</h6>
+								<a href="#" class="footer__link">About Cut Deals</a>
+								<a href="#" class="footer__link color-pink">Terms and Conditions</a>
+								<a href="#" class="footer__link color-pink">Privacy Policy</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<!-- auth popup -->
+			<div class="auth">
+				<button class="close-popup">
+					<svg class="icon icon-clear"><use xlink:href="./img/icons.svg#icon-clear"></use></svg>
+				</button>
+				<div class="overlay"></div>
+				<div class="auth__card">
+					<h2 class="heading mb-2">Join the community</h2>
+					<p class="text mb-5">
+						Share, browse and save on a huge range of deals, and be a part of a massive community of
+						real people. 👍
+					</p>
+
+					<button
+						class="btn btn__facebook btn__auth mb-1 d-flex justify-content-start align-items-center"
+					>
+						<img src="img/fb-ico.png" alt="" />
+						<span>Login with Facebook</span>
+					</button>
+					<div class="or center mb-1">or</div>
+
+					<form action="#" class="auth__form mb-1">
+						<input type="text" placeholder="email address" class="btn btn__auth mb-1" />
+						<button class="btn btn__submit btn__secondary btn__auth">submit</button>
+					</form>
+
+					<p class="text small-text mb-5">
+						By clicking continue, you agree to our <b>Terms and conditions</b> and our
+						<b>Privacy Policy,</b> and agree to automatically be included in our email newsletter.
+					</p>
+
+					<div class="auth__footer">
+						<p class="text">
+							Or if you are already a member, <br />
+							simply <a href="#">Login here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

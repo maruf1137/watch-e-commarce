@@ -112,8 +112,6 @@
 	}
 	&__nav {
 		margin-bottom: 2.8rem;
-		h4 {
-		}
 
 		.user {
 			gap: 0.5rem;
@@ -143,6 +141,8 @@
 		}
 	}
 	&__title {
+		margin-bottom: 1rem;
+
 		.price {
 			font-size: 2.2rem;
 			color: #3ab743;

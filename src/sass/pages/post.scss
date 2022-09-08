@@ -1,0 +1,44 @@
+.post {
+	margin-top: 13.2rem;
+	background: #ffffff;
+	border-radius: 17px;
+	padding: 5.5rem 0 15rem 0;
+	margin-bottom: 8.5rem;
+	width: 95%;
+
+	&__content {
+		max-width: 48.4rem;
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+	.text {
+		text-align: center;
+	}
+
+	label {
+		font-weight: 700;
+		display: block;
+	}
+
+	input,
+	textarea {
+		padding: 1.2rem 2.4rem;
+		border-radius: 0.7rem;
+		font-size: 1.4rem;
+		text-transform: capitalize;
+		background: #ebebeb;
+		border: 2px solid #dbdbdb;
+		width: 100%;
+		text-align: left;
+		cursor: auto;
+
+		&:focus {
+			border: 2px solid #000;
+		}
+	}
+}

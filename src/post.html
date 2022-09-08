@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>post a deal || watch application</title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="fonts/stylesheet.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<main class="main">
+			<!-- nvabar -->
+			<div class="nav d-flex justify-content-start align-items-center">
+				<figure class="nav__logo">
+					<!-- <img src="img/logo.png" alt="" /> -->
+					<div class="logo">logo</div>
+				</figure>
+				<div class="nav__list d-flex align-items-center d-none d-lg-flex">
+					<div class="nav__item">
+						<a href="#" class="nav__link">deals</a>
+					</div>
+					<div class="nav__item">
+						<a href="#" class="nav__link">categories</a>
+					</div>
+					<div class="nav__item">
+						<a href="#" class="nav__link">Retailers</a>
+					</div>
+				</div>
+				<form
+					action="#"
+					class="nav__form d-flex justify-content-start align-items-center d-none d-lg-flex"
+				>
+					<label for="search">
+						<img src="img/search-ico.png" alt="" />
+					</label>
+					<input type="text" id="search" placeholder="Brands, products etc..." />
+				</form>
+
+				<div class="nav__btns btns d-flex align-items-center d-none d-lg-flex">
+					<a href="#" class="btn btn__account btn-auth">Login / Sign up</a>
+					<a href="#" class="btn btn__share btn__primary">share</a>
+				</div>
+
+				<button class="btn-bars d-block d-lg-none">
+					<svg class="icon icon-bars"><use xlink:href="./img/icons.svg#icon-bars"></use></svg>
+				</button>
+			</div>
+
+			<!-- mbl nav -->
+			<div class="mblNav d-block d-lg-none">
+				<div class="logo mb-5">logo</div>
+				<ul class="mblNav__list mb-5">
+					<li class="mblNav__item">
+						<a href="#" class="mblNav__link">deals</a>
+					</li>
+					<li class="mblNav__item">
+						<a href="#" class="mblNav__link">categories</a>
+					</li>
+					<li class="mblNav__item">
+						<a href="#" class="mblNav__link">retailers</a>
+					</li>
+				</ul>
+
+				<a href="#" class="btn btn__account btn-auth">Login / Sign up</a>
+
+				<button class="btn-close-sidebar">
+					<svg class="icon icon-clear"><use xlink:href="./img/icons.svg#icon-clear"></use></svg>
+				</button>
+			</div>
+
+			<!-- post container -->
+			<div class="post container">
+				<div class="post__content">
+					<h2 class="heading mb-3">Post a deal</h2>
+					<p class="text mb-5">
+						Why not let the world know about the amazing deal or coupon you found!
+					</p>
+
+					<div class="post__url mb-3">
+						<label for="url" class="mb-1">deal url:</label>
+						<input type="text" id="url" placeholder="https://" />
+					</div>
+					<div class="post__title mb-3">
+						<label for="title" class="mb-1">deal title:</label>
+						<input type="text" id="title" placeholder="https://" />
+					</div>
+					<div class="post__price mb-3">
+						<label for="price" class="mb-1">price:</label>
+						<input type="text" id="price" placeholder="£" />
+					</div>
+					<div class="post__desc mb-3">
+						<label for="desc" class="mb-1">desc:</label>
+						<!-- <input type="text" id="desc" placeholder="" /> -->
+						<textarea
+							name="desc"
+							id="desc"
+							cols="30"
+							rows="10"
+							placeholder="description"
+						></textarea>
+					</div>
+					<div class="post__Categories: mb-3">
+						<label for="Categories:" class="mb-1">Categories::</label>
+						<input type="text" id="Categories:" placeholder="Select a minimum of one category" />
+					</div>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<footer class="footer">
+				<div class="container">
+					<div class="logo mb-3">logo</div>
+					<div class="footer__list row gx-5 gy-5">
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">site map</h6>
+								<a href="#" class="footer__link">home</a>
+								<a href="#" class="footer__link">deals</a>
+								<a href="#" class="footer__link">Retailers</a>
+								<a href="#" class="footer__link">community</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">Help and Support</h6>
+								<a href="#" class="footer__link">Help and Support</a>
+								<a href="#" class="footer__link">contact us</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">Resource Centre</h6>
+								<a href="#" class="footer__link">news</a>
+								<a href="#" class="footer__link">Tips on Saving money</a>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="footer__item">
+								<h6 class="heading mb-2">others</h6>
+								<a href="#" class="footer__link">About Cut Deals</a>
+								<a href="#" class="footer__link color-pink">Terms and Conditions</a>
+								<a href="#" class="footer__link color-pink">Privacy Policy</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<!-- auth popup -->
+			<div class="auth">
+				<button class="close-popup">
+					<svg class="icon icon-clear"><use xlink:href="./img/icons.svg#icon-clear"></use></svg>
+				</button>
+				<div class="overlay"></div>
+				<div class="auth__card">
+					<h2 class="heading mb-2">Join the community</h2>
+					<p class="text mb-5">
+						Share, browse and save on a huge range of deals, and be a part of a massive community of
+						real people. 👍
+					</p>
+
+					<button
+						class="btn btn__facebook btn__auth mb-1 d-flex justify-content-start align-items-center"
+					>
+						<img src="img/fb-ico.png" alt="" />
+						<span>Login with Facebook</span>
+					</button>
+					<div class="or center mb-1">or</div>
+
+					<form action="#" class="auth__form mb-1">
+						<input type="text" placeholder="email address" class="btn btn__auth mb-1" />
+						<button class="btn btn__submit btn__secondary btn__auth">submit</button>
+					</form>
+
+					<p class="text small-text mb-5">
+						By clicking continue, you agree to our <b>Terms and conditions</b> and our
+						<b>Privacy Policy,</b> and agree to automatically be included in our email newsletter.
+					</p>
+
+					<div class="auth__footer">
+						<p class="text">
+							Or if you are already a member, <br />
+							simply <a href="#">Login here</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
